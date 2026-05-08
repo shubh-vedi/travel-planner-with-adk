@@ -3,7 +3,6 @@ from google.adk.tools.agent_tool import AgentTool
 from travel_planner.tools import google_search_grounding, location_search_tool
 
 
-
 news_agent = Agent(
     model="gemini-2.5-flash", # Or your preferred Gemini model
     name="news_agent",

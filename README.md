@@ -59,11 +59,11 @@ graph TD
 
 | Agent | Model | Role |
 |-------|-------|------|
-| `travel_planner_main` | `gemini-2.5-flash-lite` | Root concierge — routes all user queries to sub-agents |
-| `travel_inspiration_agent` | `gemini-2.5-flash-lite` | Coordinates destination discovery and activity ideas |
-| `news_agent` | `gemini-2.5-flash-lite` | Fetches current travel events & news via Google Search |
-| `places_agent` | `gemini-2.5-flash-lite` | Finds specific nearby places (hotels, parks, cafes, etc.) |
-| `google_search_wrapped_agent` | `gemini-2.5-flash-lite` | Inner search agent that wraps Google Search as an AgentTool |
+| `travel_planner_main` | `gemini-2.5-flash` | Root concierge — routes all user queries to sub-agents |
+| `travel_inspiration_agent` | `gemini-2.5-flash` | Coordinates destination discovery and activity ideas |
+| `news_agent` | `gemini-2.5-flash` | Fetches current travel events & news via Google Search |
+| `places_agent` | `gemini-2.5-flash` | Finds specific nearby places (hotels, parks, cafes, etc.) |
+| `google_search_wrapped_agent` | `gemini-2.5-flash` | Inner search agent that wraps Google Search as an AgentTool |
 
 ### 🛠️ Tools
 

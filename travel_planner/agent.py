@@ -1,6 +1,4 @@
 from google.adk.agents import Agent
-
-
 from travel_planner.supporting_agents import travel_inspiration_agent
 
 
